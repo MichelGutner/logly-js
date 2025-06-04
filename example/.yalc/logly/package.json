@@ -1,0 +1,38 @@
+{
+  "name": "logly",
+  "version": "0.0.1",
+  "description": "this library provides a simple way to log events in javascript applications.",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "env:prod": "node ./scripts/prod/generate.js",
+    "build": "rm -rf lib && tspc && tsc -p tsconfig.json",
+    "lint:fix": "yarn lint --fix",
+    "lint": "yarn --lint",
+    "pipeline:build": "yarn build",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "axios": "*",
+    "react-dom": "*",
+    "react-native": "*",
+    "react": "*"
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./react-native": {
+      "default": "./lib/react-native/index.js"
+    },
+    "./react": {
+      "default": "./lib/react/index.js"
+    }
+  },
+  "yalcSig": "dd5cad11f6cd2fcca372d84552a35441"
+}

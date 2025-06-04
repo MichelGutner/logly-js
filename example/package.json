@@ -1,0 +1,19 @@
+{
+    "name": "example",
+    "version": "0.0.1",
+    "description": "",
+    "main": "",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^22.13.5",
+        "logly": "file:.yalc/logly",
+        "typescript": "^5.7.3"
+    },
+    "private": false,
+    "devDependencies": {
+        "ts-node": "^10.9.2"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
