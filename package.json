@@ -1,6 +1,6 @@
 {
   "name": "logly-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this library provides a simple way to log events in javascript applications.",
   "license": "MIT",
   "files": [
