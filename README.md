@@ -1,9 +1,3 @@
-## Jaiminho Notifications
-O ***Jaiminho Notifications*** é uma abstração para a implementação de canais de comunicação por mensagens, projetada para facilitar a integração de notificações em aplicações web e mobile.
-
-<div align="center">
-    <img src="./assets/avatar.jpeg" alt="Texto alternativo" style="width:400px; height:auto;" />
-</div>
 
 #### Para desenvolvedores
 
